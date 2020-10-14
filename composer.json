@@ -1,0 +1,19 @@
+{
+    "name": "laravel-admin-ext/tree-view",
+    "description": "tree view",
+    "authors": [
+        {
+            "name": "tianyang",
+            "email": "tianyang@test.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TreeView\\" : "src/"
+        }
+    }
+}
